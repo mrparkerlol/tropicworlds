@@ -1,0 +1,118 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('/assets/fonts/Aller.ttf');
+    font-size: 30px;
+}
+
+body {
+	background: url('/assets/images/bg-4.jpg') no-repeat center center fixed; 
+ 	background-size: cover;
+}
+
+.login {
+	position:absolute;
+	right:0;
+	left:0;
+	top:25%;
+
+	margin-right:auto;
+	margin-left:auto;
+
+	width:322px;
+
+	background-color:#FFFFFF;
+
+	border-radius:5px;
+
+	-moz-box-shadow: 0 0 10px black;
+	-webkit-box-shadow: 0 0 10px black;
+	box-shadow: 0px 0px 10px black;
+}
+
+.hr_alertnative {
+	position:absolute;
+
+	height:85.5%;
+	width:2px;
+	top:25px;
+	left:350px;
+
+	background-color:black;
+
+	opacity: 0.2;
+}
+
+.error1 {
+	position:relative;
+	left:5px;
+}
+
+#logo_top {
+	position:absolute;
+	top:55px;
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+
+	height:98px;
+	width:450px;
+}
+
+#make_frs_text {
+	position:absolute;
+	top:15%;
+	left:54.5%;
+	font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;
+	font-size:25px;
+}
+
+#inputs {
+	position:relative;
+
+	width:325px;
+
+	left:0;
+	right:0;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#characters {
+	position:absolute;
+
+	left:44%;
+
+	top:21%;
+}
+
+#register_object {
+	position:absolute;
+    left:0; 
+	right:0;
+    top:25%; 
+	bottom:auto;
+    margin:auto;
+	
+	width:750px;
+	
+	background-color:#FFFFFF;
+	
+	border-radius:15px;
+}
+
+#register {
+	width:295.5px;
+}
+
+#error1 {
+	position:absolute;
+	top:-55px;
+	right:-335px;
+}
+
+#register-recaptcha {
+	padding:2.5px;
+	margin:2.5px;
+}

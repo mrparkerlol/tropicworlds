@@ -1,0 +1,6 @@
+{
+  "name": "Chatty",
+  "version": "0.2.1",
+  "description": "Chatty is a websocket implementation that provides chat functionality to the web application, TropicWorlds",
+  "dependencies": {}
+}

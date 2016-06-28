@@ -1,0 +1,140 @@
+/*Font includes*/
+@font-face {
+    font-family: font;
+    src: url('/assets/fonts/luckiestguy.ttf');
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('/assets/fonts/Aller.ttf');
+    font-size: 30px;
+}
+
+/*Element overrides*/
+body {
+	background: url('/assets/images/bg3.png') no-repeat center center fixed; 
+ 	background-size: cover;
+}
+
+h1 {
+    text-shadow: 0 0 3px #000000;
+    font-family: myFirstFont;
+    src: url('/assets/fonts/luckiestguy.ttf');
+    font-size: 200px;
+    color: white;
+    margin-top: 250px;
+}
+
+h2 {
+    text-shadow: 0 0 3px #80dfff;
+    font-family: myFirstFont;
+    src: url('/assets/fonts/Aller.ttf');
+    font-size: 40px;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+
+h3 {
+    text-shadow: 1px 1px 1px #51ccad;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+div {
+    font-family: font;
+}
+
+img {
+	pointer-events: none;
+}
+
+a:visited {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+a:link {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.login {
+	position:absolute;
+	width:350px;
+	height:200px;
+
+	top:25%;
+	
+	left:0;
+	right:0;
+
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/*IDs*/
+#f {
+    text-shadow: -1px -1px 3px white;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#container {
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: -20px;
+    box-shadow: 0px 0px 7px grey;
+}
+
+#bar {
+	position:absolute;
+
+	left:50%;
+
+	top:0px;
+}
+
+#logo_top {
+	position:absolute;
+	top:55px;
+	left:0px;
+	right:0px;
+	margin-left:auto;
+	margin-right:auto;
+
+	height:98px;
+	width:450px;
+}
+
+.login {
+	background-color:white;
+
+	height:215px;
+	width:450px;
+
+	border-radius:5px;
+}
+
+#login2 {
+	position:relative;
+
+	right:0;
+	left:0;
+
+	margin-right:auto;
+	margin-left:auto;
+}

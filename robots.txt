@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /assets/images/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/font/
+Disallow: /assets/songs/
+
+Disallow: /backend/
+Disallow: /backend/processing/

@@ -1,0 +1,88 @@
+.input {
+	background-color:#E6E4E4;
+	color:grey;
+	font-family:myFirstFont;
+	
+	border:none;
+	border-style: solid;
+	border-width:2px;
+	border-radius:5px;
+	border-color:#D4D2D2 #D4D2D2;
+	
+	margin:5px;
+	padding:2px;
+
+	height:35px;
+	resize: horizontal;
+    width: 302.5px;
+}
+
+.button {
+	background-color:#80dfff;
+	color:white;
+	font-family:myFirstFont;
+	
+	border:none;
+	border-style: solid;
+	border-width:2px;
+	border-color:#69CDEF #69CDEF;
+	border-radius:5px;
+	
+	padding:2px;
+	margin:5px;
+	
+	-moz-box-shadow: 0 0 10px #80DFFF;
+	-webkit-box-shadow: 0 0 10px #80DFFF;
+	box-shadow: 0px 0px 10px #80DFFF;
+	
+	width:310px;
+	height:40px;
+	z-index:2;
+	
+	cursor:pointer;
+}
+
+.button:hover {
+	background-color:#80EAFF;
+	
+	-moz-box-shadow: 0 0 10px #80EAFF;
+	-webkit-box-shadow: 0 0 10px #80EAFF;
+	box-shadow: 0px 0px 10px #80EAFF;
+	
+	border-color:#69DDEF #69DDEF;
+}
+
+#sRegister {
+	background-color:#FFE480;
+	color:white;
+	font-family:myFirstFont;
+	
+	border:none;
+	border-style: solid;
+	border-width:2px;
+	border-color:#E8D811 #E8D811;
+	border-radius:5px;
+	
+	padding:2px;
+	margin:5px;
+	
+	-moz-box-shadow: 0 0 10px #BDBF14;
+	-webkit-box-shadow: 0 0 10px #BDBF14;
+	box-shadow: 0px 0px 10px #BDBF14;
+	
+	width:309px;
+	height:40px;
+	z-index:2;
+	
+	cursor:pointer;
+}
+
+#sRegister:hover {
+	background-color:#FFEBA3;
+	
+	-moz-box-shadow: 0 0 10px #F9EE68;
+	-webkit-box-shadow: 0 0 10px #F9EE68;
+	box-shadow: 0px 0px 10px #F9EE68;
+	
+	border-color:#F9EE68 #F9EE68;
+}
